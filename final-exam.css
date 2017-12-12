@@ -5,8 +5,8 @@ img{
 body{
   background-color: darkgray;
 }
-@media(max-width:700px){
 .container{
+  max-width:700px;
   margin: 0 auto;
   overflow: auto;
   background-color: white;
@@ -22,7 +22,7 @@ body{
   overflow:auto;
 }
 }
-}
+
 a{
   color: green;
 }
