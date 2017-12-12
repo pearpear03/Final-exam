@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="final-exam.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta charset="utf-8">
   <title>Yi Li</title>
 </head>
@@ -22,15 +23,36 @@
       <p>Layers of dark chocolate ganache and white chocolate cream help put this cake over the top.</p>
       <h3><a href="http://www.epicurious.com/recipes/food/views/cinnamon-bun-bundt-cake-51196640">Cinnamon Bun Bundt Cake</a></h3>
       <p>Of course, any leftovers of this cake are a welcome treat at breakfast the next morning.</p>
+      <a id="reveal-recipes" href="#">See more recipies</a>
+      <div id="more-recipes">
+        <h3><a href="http://www.epicurious.com/recipes/food/views/cranberry-spice-cake-368253">Cranberry Spice Cake</a></h3>
+        <p>An easy lemon glaze adds an extra layer of brightness to this seasonal cake.</p>
+
+        <h3><a href="http://www.epicurious.com/recipes/food/views/chocolate-glazed-hazelnut-mousse-cake-233810">Chocolate-Glazed Hazelnut Mousse Cake</a></h3>
+        <p>This cake can be made up to 2 days ahead of time and stored in the fridge—just be sure to leave the glaze off until the day you serve it.</p>
+
+        <h3><a href="http://www.epicurious.com/recipes-menus/our-most-festive-holiday-christmas-cakes-recipes-gallery/9">Spiced Chai Bundt Cake</a></h3>
+        <p>Chai tea leaves and pumpkin pie spice lend a hefty dose of warm spice to this simple cake.</p>
+
+        <h3><a href="http://www.epicurious.com/recipes/food/views/black-forest-cake-51125600">Black Forest Cake</a></h3>
+        <p>This beautiful cake is definitely a project but it's just the thing to serve at a holiday gathering.</p>
+
+        <h3><a href="http://www.epicurious.com/recipes/food/views/ginger-spice-cake-with-dried-cherries-395034">Ginger Spice Cake with Dried Cherries</a></h3>
+        <p>While this cake is amazing with chocolate icing drizzled on top, it's also perfect with just a dusting of powdered sugar.</p>
+
+        <h3><a href="http://www.epicurious.com/recipes/food/views/peppermint-ice-cream-candyland-cake-240698">Peppermint Ice Cream Candyland Cake</a></h3>
+        <p>This cake, make with store-bought peppermint stick ice cream, couldn't be more festive.</p>
+      </div>
     </div>
     <div class="right-column">
       <h2>More lists on epicurious.com</h2>
       <ul>
         <li><a href="http://www.epicurious.com/recipes-menus/clean-restorative-bowl-food-article">3 New Recipes for Bowl Food (Yes, Bowl Food)</a></li>
         <li><a href="http://www.epicurious.com/recipes-menus/three-five-ingredient-pastas-for-winter-recipes-article">Secrets of 5-Ingredient Pastas</a></li>
-
-
       </ul>
     </div>
   </div>
+  <script>
+  $('#more-recipes').hide();
+  </script>
 </body>
