@@ -23,3 +23,25 @@ body{
 }
 }
 }
+a{
+  color: green;
+}
+h3{
+  font-weight: normal;
+  padding-bottom: 2px;
+  font-family: Georgia;
+}
+h2{
+  margin-top: 0;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Georgia;
+}
+h1{
+  font-family: Georgia;
+}
+.by-line{
+  border-bottom: 5px solid #E8E8E8;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+}
